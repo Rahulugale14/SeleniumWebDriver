@@ -1,4 +1,4 @@
-package day22;
+package day2;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
