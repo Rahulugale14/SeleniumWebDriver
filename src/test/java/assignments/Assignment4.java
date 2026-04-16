@@ -9,6 +9,8 @@ import java.time.Duration;
 import java.util.List;
 import java.util.Set;
 
+//GET WINDOW HANDLES PRACTICE
+
 public class Assignment4 {
 
     public static void main (String args[]) {

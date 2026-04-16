@@ -23,18 +23,18 @@ public class SelectDropdown {
                 By.xpath("//select[@id='country']"));
         Select dropdownCountry = new Select(dropdownCountryElement);
 
-        //select option from the dropdown
+        //---> select option from the dropdown
         // dropdownCountry.selectByVisibleText("France");          //France is text from dropdown
         // dropdownCountry.selectByValue("japan");                    // japan is the value from webelement
         //dropdownCountry.selectByIndex(9);
 
-        //capture the options from the dropdown
+        //---> capture the options from the dropdown
         List<WebElement> options = dropdownCountry.getOptions();
         System.out.println("Total number of dropdown options" + options.size());
 
 
 
-        //printing the options
+        //----> printing the options
         //using normal for loop
         /*
         for (int i=0; i<options.size(); i++) {

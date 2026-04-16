@@ -15,7 +15,11 @@ public class BootstrapDropdown {
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        //******this website is not working*******
+        //****** below website is not working *******
+        //****** below website is not working *******
+        //****** below website is not working *******
+        //****** below website is not working *******
+
 
         driver.get("https://www.jquery-az.com/boots/demo.php?ex=63.0_2");
         driver.manage().window().maximize();

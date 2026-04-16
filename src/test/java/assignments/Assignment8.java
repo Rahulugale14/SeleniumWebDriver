@@ -1,4 +1,4 @@
-package day11;
+package assignments;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -8,8 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 import java.util.List;
 
-public class HiddenDropdown {
-
+public class Assignment8 {
     public static void main (String args[]) throws InterruptedException {
 
         WebDriver driver = new ChromeDriver();
@@ -28,27 +27,31 @@ public class HiddenDropdown {
         driver.findElement(
                 By.xpath("//span[normalize-space()='PIM']")).click();
 
-        //clicked on dropdown
+        // clicked on arrow of dropdown
         driver.findElement(
-                By.xpath("//body[1]/div[1]/div[1]/div[2]/div[2]/div" +
-                        "[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[2]/i[1]")).click();
+                By.xpath("//div[3]//div[1]//div[2]//div[1]//div[1]//div[2]//i[1]")).click();
 
-        //select single option
-        //driver.findElement(By.xpath("//span[normalize-space()='Payroll Administrator']")).click();
+        // select single option
+        //driver.findElement(By.xpath("//span[normalize-space()='Full-Time Contract']")).click();
 
         Thread.sleep(5000);
 
-        //Count number of options
-        List<WebElement> options = driver.findElements(By.xpath("//div[@role='listbox']//span"));
-        System.out.println("Number of options: " + options.size());
+        //Count number of options under dropdown
+        List<WebElement> list = driver.findElements(By.xpath("//div[@role='listbox']//span"));
+        System.out.println("Number of options under dropdown: " + list.size());
 
         //printing options
-        for (WebElement op : options) {
-            System.out.println(op.getText());
+        for (WebElement opt : list) {
+            System.out.println(opt.getText());
+
         }
 
 
-    }
 
+
+
+
+
+    }
 
 }
