@@ -9,6 +9,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
+//Excel File --> WorkBook --> Sheets --> Rows --> Cells
+
 public class WritingDynamicExcelData {
 
     public static void main (String args[] ) throws IOException {

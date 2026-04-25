@@ -8,6 +8,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+//Excel File --> WorkBook --> Sheets --> Rows --> Cells
+
 public class WritingExcelData {
 
     public static void main (String args[] ) throws IOException {
