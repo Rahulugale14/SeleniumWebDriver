@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="AllAnnotations">
+        <classes>
+            <class name="day23.annotationsExamples.AllAnnotations">
+                <methods>
+                    <include name="t1"/>
+                    <include name="t2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

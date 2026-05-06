@@ -1,0 +1,19 @@
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="test1">
+        <classes>
+            <class name="day23.pack.C1"/>
+            <class name="day23.pack.C2"/>
+            <class name="day23.pack.C3"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="test2">
+        <classes>
+            <class name="day23.pack.C1"/>
+            <class name="day23.pack.C2"/>
+            <class name="day23.pack.C3"/>
+        </classes>
+    </test>
+
+</suite>
